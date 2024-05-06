@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+
+/*menu*/
+menu{
+    background-color: #ff511d;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+menu li{
+    display: inline-block;
+}
+
+menu a{
+    color: white;
+    text-decoration: none;
+}
+
+/*pseudoselector de menu*/
+menu a:hover{
+    background-color: goldenrod;
+}
+
+/*inicio*/
+.inicio{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*galeria*/
+.galeria{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*contacto*/
+.contacto{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
