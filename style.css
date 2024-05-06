@@ -35,6 +35,7 @@ menu li .active{
 /*pseudoselector de menu*/
 menu a:hover{
     background-color: goldenrod;
+    font-weight: bold;
 }
 
 /*inicio*/
