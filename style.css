@@ -3,20 +3,33 @@ body{
 }
 
 /*menu*/
+
 menu{
     background-color: #ff511d;
     padding: 10px;
     margin: 0;
     text-align: center;
+    margin: 10px auto 0;
+    width: 750px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+menu a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    align-content: center;
 }
 
 menu li{
     display: inline-block;
 }
 
-menu a{
-    color: white;
-    text-decoration: none;
+menu li .active{
+    font-weight: bold;
+    color: black;
 }
 
 /*pseudoselector de menu*/
@@ -29,6 +42,7 @@ menu a:hover{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    font-family: "Arial", sans-serif;
 }
 
 /*galeria*/
@@ -36,6 +50,7 @@ menu a:hover{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    font-family: "Arial", sans-serif;
 }
 
 /*contacto*/
@@ -43,4 +58,5 @@ menu a:hover{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    font-family: "Arial", sans-serif;
 }
