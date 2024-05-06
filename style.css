@@ -38,6 +38,12 @@ menu a:hover{
     font-weight: bold;
 }
 
+/*header*/
+header{
+    background-size: cover;
+    background-position: center;
+}
+
 /*inicio*/
 .inicio{
     display: flex;
