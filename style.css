@@ -57,6 +57,16 @@ header{
     color: white; /* Change the text color to white when hovered */
 }
 
+.inicio img, .grid-container img {
+    transition: transform 0.3s ease;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.inicio img:hover, .grid-container img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
 .inicio{
     text-align: center;
     font-family: Times New Roman;
@@ -101,6 +111,15 @@ header{
 .grid-container img{
     width: 100%;
     height: 100%;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    /* Agrega una transición para suavizar el cambio de sombra en el hover */
+    transition: box-shadow 0.3s ease;
+}
+
+.grid-container img:hover {
+    /* Aumenta la sombra en el hover para dar un efecto de "elevación" */
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
 }
 
 /*contacto*/
