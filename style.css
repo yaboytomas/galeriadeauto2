@@ -102,6 +102,7 @@ header{
     padding: 5px;  /* Adjust as needed */
     border: 10px solid black; /* Example border */
     background-color: grey;
+    border-radius: 20px;
 }
 
 .form {  /* Target the entire form container */
