@@ -99,7 +99,8 @@ header{
     width: 100%;  /* Set width to 100% */
     padding: 8px;  /* Add some padding */
     border: 1px solid #ccc;  /* Add a border */
-    border-radius: 3px;  /* Add rounded corners */
+    border-radius: 3px;
+    cursor: pointer;/* Add rounded corners */
 }
 
 .form textarea {  /* Style the textarea */
