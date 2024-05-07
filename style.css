@@ -1,9 +1,4 @@
-body{
-    margin: 0;
-}
-
-/*menu*/
-
+/*menu/
 menu{
     background-color: #ff511d;
     padding: 10px;
@@ -33,9 +28,21 @@ menu li .active{
 }
 
 /*pseudoselector de menu*/
-menu a:hover{
+/*menu a:hover{
     background-color: goldenrod;
     font-weight: bold;
+}
+
+/*bootstrap menu*/
+.container-fluid a:hover {
+    background-color: black;
+    font-weight: bold;
+}
+
+.container-fluid a:active{
+    font-weight: bold;
+    color: black;
+
 }
 
 /*header*/
@@ -46,24 +53,77 @@ header{
 
 /*inicio*/
 .inicio{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    font-family: "Arial", sans-serif;
+    text-align: center;
 }
 
 /*galeria*/
-.galeria{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    font-family: "Arial", sans-serif;
+.gallery{
+    text-align: center;
 }
 
 /*contacto*/
 .contacto{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    font-family: "Arial", sans-serif;
+    text-align: center;
+}
+
+/*form*/
+.form{
+    margin: 5px;  /* Adjust as needed */
+    padding: 5px;  /* Adjust as needed */
+    border: 10px solid black; /* Example border */
+    background-color: grey;
+}
+
+.form {  /* Target the entire form container */
+    margin: 20px auto;  /* Add some margin and center horizontally */
+    width: 50%;  /* Adjust width as needed */
+    border: 1px solid #ddd;  /* Add a border */
+    padding: 15px;  /* Add some padding */
+}
+
+.form label {  /* Style all labels */
+    display: block;  /* Make labels display on a new line */
+    margin-bottom: 5px;  /* Add some space below labels */
+    font-weight: bold;  /* Make labels bolder */
+}
+
+.form input[type="text"],  /* Style text and email input fields */
+.form input[type="email"] {
+    width: 100%;  /* Set width to 100% */
+    padding: 8px;  /* Add some padding */
+    border: 1px solid #ccc;  /* Add a border */
+    border-radius: 3px;  /* Add rounded corners */
+}
+
+.form select {  /* Style the select box */
+    width: 100%;  /* Set width to 100% */
+    padding: 8px;  /* Add some padding */
+    border: 1px solid #ccc;  /* Add a border */
+    border-radius: 3px;  /* Add rounded corners */
+}
+
+.form textarea {  /* Style the textarea */
+    width: 100%;  /* Set width to 100% */
+    min-height: 100px;  /* Set a minimum height */
+    padding: 8px;  /* Add some padding */
+    border: 1px solid #ccc;  /* Add a border */
+    border-radius: 3px;  /* Add rounded corners */
+}
+
+.form input[type="submit"] {  /* Style the submit button */
+    background-color: white;  /* Set background color */
+    color: black;  /* Set text color */
+    padding: 10px 20px;  /* Add some padding */
+    border: none;  /* Remove default border */
+    border-radius: 3px;  /* Add rounded corners */
+    cursor: pointer;  /* Change cursor to pointer on hover */
+}
+
+.form input[type="submit"]:hover {  /* Style submit button on hover */
+    background-color: blue;  /* Change background color on hover */
+}
+
+/*footer*/
+footer{
+    text-align: center;
 }
