@@ -8,12 +8,16 @@
     <title>Galeria de Autos</title>
 </head>
 <body>
+<video id="backgroundVideo" autoplay loop muted>
+    <source src=media/road.mp4 type="video/mp4">
+    Your browser does not support the video tag.
+</video>
 <header>
-    <img src="header1.jpg" width="100%" height="200">
+    <img src="media/header1.jpg" width="100%" height="200">
 </header>
 <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
     <div class="container-fluid">
-        <img src="wheel.jpg" alt="Bootstrap" width="50" height="30">
+        <img src="media/wheel.jpg" alt="Bootstrap" width="50" height="30">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,9 +47,9 @@
 
     <form class="form">
         <label for="name">Nombre:</label>
-        <input type="text" id="name" name="name" required>
+        <input type="text" id="name" name="name" placeholder="Kika Silva" required>
         <label for="email">Correo Electrónico:</label>
-        <input type="email" id="email" name="email" required>
+        <input type="email" id="email" name="email" placeholder="kika@silva.com" required>
         <label for="tipo">Tipo de solicitud:</label>
         <select id="tipo" name="tipo" required>
             <option value="compra">Consulta</option>
@@ -68,7 +72,7 @@
 </center>
 </div>
 </body>
-<footer>
+<footer class="footercontacto">
     <center><p>Copyright 2024 Tomas Szabo Undurraga. All Rights Reserved.</p></center>
 </footer>
 </html>

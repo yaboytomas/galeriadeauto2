@@ -35,14 +35,8 @@ menu li .active{
 
 /*bootstrap menu*/
 .container-fluid a:hover {
-    background-color: black;
     font-weight: bold;
-}
-
-.container-fluid a:active{
-    font-weight: bold;
-    color: black;
-
+    color: white;
 }
 
 /*header*/
@@ -51,20 +45,49 @@ header{
     background-position: center;
 }
 
+/*bbackground*/
+#backgroundVideo {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
 /*inicio*/
 .inicio{
     text-align: center;
+    font-family: "Times New Roman";
+    margin: 20px;
+}
+
+.inicio{
+    background-color: #dddddd;
 }
 
 /*galeria*/
 .gallery{
     text-align: center;
+    font-family: "Times New Roman";
+    margin: 20px;
 }
 
 /*contacto*/
 .contacto{
     text-align: center;
+    font-family: "Times New Roman";
+    margin: 20px;
+    color: white;
 }
+
+.contacto {
+    text-shadow:
+            -1px 0 black,  /* Add black shadow to the right */
+            0 1px black,  /* Add black shadow below */
+            1px 0 black,  /* Add black shadow to the left */
+            0 -1px black; /* Add black shadow above */
+}
+
 
 /*form*/
 .form{
@@ -127,4 +150,15 @@ header{
 /*footer*/
 footer{
     text-align: center;
+}
+
+.footercontacto{
+    color: white;
+}
+.footercontacto{
+    text-shadow:
+            -1px 0 black,  /* Add black shadow to the right */
+            0 1px black,  /* Add black shadow below */
+            1px 0 black,  /* Add black shadow to the left */
+            0 -1px black; /* Add black shadow above */
 }
