@@ -72,6 +72,13 @@ header{
     margin: 20px;
 }
 
+/* Grid container styles */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto; /* Defines 4 columns of equal width */
+    grid-gap: 20px; /* Spacing between grid items */
+}
+
 /*contacto*/
 .contacto{
     text-align: center;
